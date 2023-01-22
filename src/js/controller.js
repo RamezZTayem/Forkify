@@ -84,7 +84,7 @@ const controlBookmarks = function () {
   bookmarksView.render(model.state.bookmarks);
 };
 const newfunction = function () {
-  console.log('New future was added to the Website');
+  console.log('New Feature was added to the Website');
 };
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks);
