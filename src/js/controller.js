@@ -83,6 +83,9 @@ const controlAddBookmark = function () {
 const controlBookmarks = function () {
   bookmarksView.render(model.state.bookmarks);
 };
+const newfunction = function () {
+  console.log('New future was added to the Website');
+};
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks);
   recipeView.addHandlerRender(controlRecipe);
@@ -92,5 +95,6 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination);
   console.log('Welcome');
   //something was added
+  newfunction();
 };
 init();
